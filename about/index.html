@@ -3,37 +3,6 @@
 <head>
 <title>About | Christopher Konecnik</title>
 <style>
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}  
   
 #header {
   position: fixed;
@@ -48,6 +17,18 @@ li a:hover:not(.active) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+a {
+  font-family: futura, 'helvetica neue', helvetica, sans-serif;
+  font-size: calc(24px + .5vw);
+  font-weight: 200;
+  padding: 10px;
+} a:link, a:visited {
+  color: black;
+  text-decoration: none;
+} a:hover {
+  background-color: #efefef
+}  
   
 h1 {
   text-align: center;
@@ -74,11 +55,7 @@ p {
 
 <body>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a class="active" href="#about">About</a></li>
-  <li><a href="#blog">Blog</a></li>\
-</ul>  
+<h5 text-align: center;><a href="/">Konecnik</a></h5>
   
 <div id="centerOfParent">  
   
